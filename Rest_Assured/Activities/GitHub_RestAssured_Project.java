@@ -27,7 +27,7 @@ public class GitHub_RestAssured_Project {
         // Request Specification
         requestSpec = new RequestSpecBuilder()
                 .setBaseUri("https://api.github.com/user/keys")
-                .addHeader("Authorization", "token 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")
+                .addHeader("Authorization", "token ")
                 .addHeader("Content-Type","application/json")
                 .build();
 
